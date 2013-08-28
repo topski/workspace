@@ -108,5 +108,27 @@ public class SorcerersCave extends JFrame {
 
 class Cave {
 	ArrayList <Party> parties = new ArrayList <Party> ();
+	ArrayList <CaveElement> stuff = new ArrayList <CaveElement> ();
+}//end class Cave
+
+class CaveElement {
 	
-}
+}//end class CaveElement
+
+class Party extends CaveElement {
+	ArrayList <Creature> members = new ArrayList <Creature> ();
+}//end class CaveElement
+
+class Creature extends CaveElement {
+	ArrayList <Treasure> treasures = new ArrayList <Treasure> ();
+	ArrayList <Artifact> artifacts = new ArrayList <Artifact> ();
+}//end class Creature
+
+class Artifact extends CaveElement {
+
+}//end class Artifact
+
+class Treasure extends CaveElement {
+	
+}//end class Treasure
+
