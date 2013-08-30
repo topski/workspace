@@ -1,0 +1,20 @@
+package P1_CMSC335;
+/* File: SorcerersCave.java
+ * Date: 08/27/2013
+ * Author: James Watson
+ * Purpose:
+ */
+
+import javax.swing.JFrame;
+
+public class SorcerersCave extends JFrame {
+	
+	public SorcerersCave() {
+		System.out.println ("In Constructor");
+	}//end no-parameter constructor
+	
+	public static void main(String[] args) {
+		SorcerersCave sc = new SorcerersCave();
+	}//end main
+	
+}//end class SorcerersCave

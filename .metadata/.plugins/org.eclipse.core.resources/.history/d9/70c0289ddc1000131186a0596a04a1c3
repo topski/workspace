@@ -1,0 +1,13 @@
+package Prof_Project1Files;
+
+import java.util.Scanner;
+
+class ArtifactType {
+	String type;
+	String name;
+
+	public ArtifactType(Scanner ss, String pn) {
+		this.name = ss.next();
+		this.type = pn;
+	}
+}

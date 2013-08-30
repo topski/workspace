@@ -1,0 +1,42 @@
+package P1_CMSC335;
+/* File: SorcerersCave.java
+ * Date: 08/27/2013
+ * Author: James Watson
+ * Purpose:
+ */
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+import javax.swing.JScrollPane;
+import javax.swing.JButton;
+
+public class SorcerersCave extends JFrame {
+	private static final long serialVersionUID = 6410274498152162892L;
+
+	JTextArea jta = new JTextArea();
+	
+	public SorcerersCave() {
+		System.out.println ("In Constructor");
+		setTitle ("Sorcerer's Cave");
+		setSize(300, 300);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+		
+		JScrollPane jsp = new JScrollPane(jta);
+		add(jsp, BorderLayout.CENTER);
+		
+		JButton jba = new JButton("Read");
+		JButton jbs = new JButton("Search");
+		
+		add(jba, BorderLayout.PAGE_START);
+		
+		validate();
+	}//end no-parameter constructor
+	
+	public static void main(String[] args) {
+		SorcerersCave sc = new SorcerersCave();
+	}//end main
+	
+}//end class SorcerersCave

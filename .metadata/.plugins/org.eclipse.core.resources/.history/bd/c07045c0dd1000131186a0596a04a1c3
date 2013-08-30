@@ -1,0 +1,14 @@
+package Prof_Project1Files;
+
+import java.util.Scanner;
+ 
+ class Job extends Element
+ {
+   double time;
+ 
+   public Job(Scanner ss, int pi)
+   {
+     this.name = ss.next();
+     this.index = pi;
+   }
+ }

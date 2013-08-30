@@ -1,0 +1,15 @@
+package Prof_Project1Files;
+
+import java.util.Scanner;
+ 
+ class WandType
+ {
+   String type;
+   String name;
+ 
+   public WandType(Scanner ss)
+   {
+     this.name = ss.next();
+     this.type = "Wand";
+   }
+ }

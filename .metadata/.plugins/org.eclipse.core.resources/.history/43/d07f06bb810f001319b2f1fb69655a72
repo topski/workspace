@@ -1,0 +1,64 @@
+package P1_CMSC335;
+/* File: SorcerersCave.java
+ * Date: 08/27/2013
+ * Author: James Watson
+ * Purpose:
+ */
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+import javax.swing.JScrollPane;
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
+
+public class SorcerersCave extends JFrame {
+	private static final long serialVersionUID = 6410274498152162892L;
+
+	JTextArea jta = new JTextArea();
+	
+	public SorcerersCave() {
+		System.out.println ("In Constructor");
+		setTitle ("Sorcerer's Cave");
+		setSize(600, 300);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+		
+		JScrollPane jsp = new JScrollPane(jta);
+		add(jsp, BorderLayout.CENTER);
+		
+		JButton jbr = new JButton("Read");
+		JButton jbs = new JButton("Search");
+		JButton jbd = new JButton("Display");
+		
+		JLabel jls = new JLabel("Search Target");
+		
+		JTextField jtf = new JTextField(10);
+		
+		JComboBox jcb = new JComboBox ();
+		jcb.addItem("Index");
+		jcb.addItem("Type");
+		jcb.addItem("Name");
+		
+		JPanel jp = new JPanel();
+		jp.add(jbr);
+		jp.add(jbd);
+		jp.add(jls);
+		jp.add(jtf);
+		jp.add(jcb);
+		jp.add(jbs);
+		
+		add(jp, BorderLayout.PAGE_START);
+		
+		validate();
+	}//end no-parameter constructor
+	
+	public static void main(String[] args) {
+		SorcerersCave sc = new SorcerersCave();
+	}//end main
+	
+}//end class SorcerersCave
