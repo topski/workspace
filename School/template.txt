@@ -1,0 +1,263 @@
+// sample data file for CMSC 335, Summer 2013
+// Nicholas Duchon
+// Jan 23, 2012
+// May 22, 2013
+
+// Parties format:
+//    p:<index>:<name>
+
+// Creatures format:
+//    c:<index>:<type>:<name>:<party>:<empathy>:<fear>:<carrying capacity>[:<age>:<height>:<weight>]
+
+// Treasures format:
+//    t:<index>:<type>:<creature>:<weight>:<value>
+// creature = 0 means noone is carrying that treasure at the moment
+
+// Artifacts format:
+//    a:<index>:<type>:<creature>[:<name>]
+
+// Jobs for creatures
+// measure time in seconds
+//    j:<index>:<name>:<creature index>:<time>[:<required artifact:type>:<number>]*
+
+// g, t, c, s, p, d, w
+// Parties/groups
+g:Assembly
+g:Association
+g:Band
+g:Bevy
+g:Body
+g:Brotherhood
+g:Circle
+g:Clan
+g:Clique
+g:Colony
+g:Company
+g:Congregation
+g:Corps
+g:Covey
+g:Crew
+g:Crowd
+g:Detachment
+g:Detail
+g:Drove
+g:Flock
+g:Force
+g:Fraternity
+g:Gaggle
+g:Gang
+g:Gathering
+g:Guild
+g:Herd
+g:League
+g:Phyle
+g:School
+g:Sept
+g:Set
+g:Sodality
+g:Sorority
+g:Squad
+g:Swarm
+g:Team
+g:Tribe
+g:Troupe
+g:Unity
+
+// treasures
+t:Gold
+t:Silver
+t:Gems
+t:Platinum
+t:Chest
+t:Doubloons
+t:Krugerrands
+t:Pieces of Eight
+t:Guilders
+t:Panda
+t:Dinar
+t:Kijang Emas
+t:Chervonets
+t:Vreneli
+t:Napoleons
+t:Gold Nuggets
+t:Britannias
+t:Double Eagles
+t:Marks
+t:Guildens
+t:Florins
+
+// creatures
+c:Banshee:f
+c:Demon:e
+c:Djin:e
+c:Dragon:e
+c:Dwarf:e
+c:Elf:e
+c:Giant:e
+c:Gnome:e
+c:Goblin:e
+c:Hero:m
+c:Heroine:f
+c:Kobold:e
+c:Leprechaun:e
+c:Magician:e
+c:Man:m
+c:Pixie:e
+c:Priest:m
+c:Priestess:f
+c:Troll:e
+c:Vampire:e
+c:Warlock:m
+c:Witch:f
+c:Wizard:m
+c:Woman:f
+c:Yeti:e
+
+// stones
+s:Agate
+s:Alexandrite
+s:Amethyst
+s:Andalusite
+s:Aquamarine
+s:Axinite
+s:Benitoite
+s:Bixbite
+s:Cassiterite
+s:Chalcedony
+s:Chrysocolla
+s:Chrysoprase
+s:Citrine
+s:Clinohumite
+s:Danburite
+s:Diamond
+s:Diopside
+s:Dioptase
+s:Dumortierite
+s:Emerald
+s:Feldspar
+s:Garnet
+s:Hambergite
+s:Hematite
+s:Iolite
+s:Jade
+s:Jasper
+s:Kornerupine
+s:Kunzite
+s:Lapis-lazuli
+s:Malachite
+s:Obsidian
+s:Olivine
+s:Onyx
+s:Opal
+s:Pyrite
+s:Quartz
+s:Ruby
+s:Sapphire
+s:Spinel
+s:Sugilite
+s:Tanzanite
+s:Tiger-eye
+s:Topaz
+s:Tourmaline
+s:Turquoise
+s:Variscite
+s:Zeolite
+s:Zircon
+
+// potions
+p:Accuracy Boost
+p:Air Resistance
+p:Awaken
+p:Bless
+p:Body Resistance
+p:Cure Disease
+p:Cure Insanity
+p:Cure Paralysis
+p:Cure Poison
+p:Cure Weakness
+p:Cure Wounds
+p:Divine Cure
+p:Divine Power
+p:Divine Restoration
+p:Earth Resistance
+p:Endurance Boost
+p:Fire Resistance
+p:Flaming
+p:Freezing
+p:Harden Item
+p:Haste
+p:Heroism
+p:Intellect Boost
+p:Luck Boost
+p:Magic Upgrade
+p:Might Boost
+p:Mind Resistance
+p:Noxious Boost
+p:Personality Boost
+p:Preservation
+p:Pure Accuracy
+p:Pure Endurance
+p:Pure Intellect
+p:Pure Luck
+p:Pure Might
+p:Pure Personality
+p:Pure Speed
+p:Recharge Item
+p:Rejuvenation
+p:Remove Curse
+p:Remove Fear
+p:Shield
+p:Shocking Potion
+p:Slaying Potion
+p:Speed Boost
+p:Stone Skin
+p:Stone to Flesh
+p:Swift Potion
+p:Water Breathing
+p:Water Resistance
+
+// wands
+d:Wand
+
+// weapons
+w:Arbalest
+w:Arquebus
+w:Ballista
+w:Battle axe
+w:Broadsword
+w:Claymore
+w:Club
+w:Crossbow
+w:Culverin
+w:Dagger
+w:Dirk
+w:English longbow
+w:Epee
+w:Falchion
+w:Flail
+w:Flamberge
+w:Foil
+w:Halberd
+w:Katana
+w:Lance
+w:Lochaber Axe
+w:Longsword
+w:Lucerne hammer
+w:Mace
+w:Maul
+w:Mongol bow
+w:Morning star
+w:Musket
+w:Pike
+w:Quarterstaff
+w:Rapier
+w:Repeating crossbow
+w:Sabre
+w:Scimitar
+w:Shortsword
+w:Shuriken
+w:Stiletto
+w:Sword
+w:Throwing Spear
+w:War hammer
+w:Zweihander
