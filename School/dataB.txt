@@ -1,0 +1,108 @@
+// sample data file for CMSC 335, Summer 2013
+// Nicholas Duchon
+// Jan 23, 2012
+// May 22, 2013
+
+// Parties format:
+//    p:<index>:<name>
+p : 10000 : Colony
+p : 10001 : Detachment
+p : 10002 : Gaggle
+p : 10003 : Crew
+
+// Creatures format:
+//    c:<index>:<type>:<name>:<party>:<empathy>:<fear>:<carrying capacity>[:<age>:<height>:<weight>]
+c : 20000 :       Yeti :    Rosalva : 10000 :  50 :  35 :  34 :   57.58 :   71.98 :  726.16
+c : 20001 :        Elf :    Wilford : 10000 :  73 :   3 : 127 :  429.53 :  170.79 :   39.08
+c : 20002 :    Vampire :  Lashaunda : 10000 :  34 :  48 : 258 :  306.96 :  182.37 :  327.00
+c : 20003 :    Warlock :    Wilford : 10001 :  88 :  14 : 123 :  430.33 :  159.78 :  294.33
+c : 20004 :      Troll :     Melony : 10001 :   0 :  95 : 257 :   61.20 :   97.92 :  210.32
+c : 20005 :   Magician :      Tracy : 10002 :  45 :  88 : 133 :  224.90 :   87.19 :  675.70
+c : 20006 :    Banshee :      Gilda : 10002 :  16 :  69 : 283 :  217.35 :  170.19 :  153.74
+c : 20007 :       Hero :      Danny : 10003 :  87 :  69 : 200 :  137.34 :  184.44 :  165.84
+c : 20008 :    Vampire :      Ruben : 10003 :  63 :  91 : 123 :  340.76 :  191.74 :  409.70
+
+// Treasures format:
+//    t:<index>:<type>:<creature>:<weight>:<value>
+// creature = 0 means noone is carrying that treasure at the moment
+t : 30000 :          Silver : 20000 :  17.3 :    68
+t : 30001 :            Gems : 20000 : 213.2 :    85
+t : 30002 :            Gold : 20001 :  92.5 :    27
+t : 30003 :    Gold Nuggets : 20002 : 109.6 :    15
+t : 30004 :      Chervonets : 20003 : 119.4 :    37
+t : 30005 :         Vreneli : 20004 : 128.5 :    34
+t : 30006 :            Gold : 20005 : 133.5 :    76
+t : 30007 :     Krugerrands : 20005 : 238.3 :    18
+t : 30008 :     Krugerrands : 20006 : 181.8 :    43
+t : 30009 :            Gems : 20006 : 118.4 :    87
+t : 30010 :   Double Eagles : 20007 : 249.4 :    39
+t : 30011 :         Vreneli : 20007 :  70.3 :    19
+t : 30012 :           Dinar : 20008 : 300.6 :    63
+
+// Artifacts format:
+//    a:<index>:<type>:<creature>[:<name>]
+a : 40000 :   Stone : 20000 : Andalusite
+a : 40001 :   Stone : 20000 : Quartz
+a : 40002 :  Potion : 20000 : Shocking Potion
+a : 40003 :  Potion : 20000 : Cure Insanity
+a : 40004 :    Wand : 20000 : Wand
+a : 40005 :  Weapon : 20000 : Arbalest
+a : 40006 :  Weapon : 20000 : Foil
+a : 40007 :   Stone : 20001 : Emerald
+a : 40008 :   Stone : 20001 : Topaz
+a : 40009 :  Potion : 20001 : Cure Weakness
+a : 40010 :    Wand : 20001 : Wand
+a : 40011 :  Weapon : 20001 : Lance
+a : 40012 :   Stone : 20002 : Zeolite
+a : 40013 :   Stone : 20002 : Lapis-lazuli
+a : 40014 :   Stone : 20002 : Chrysocolla
+a : 40015 :  Potion : 20002 : Shield
+a : 40016 :  Potion : 20002 : Pure Luck
+a : 40017 :    Wand : 20002 : Wand
+a : 40018 :    Wand : 20002 : Wand
+a : 40019 :  Weapon : 20002 : Lucerne hammer
+a : 40020 :  Weapon : 20002 : Culverin
+a : 40021 :  Weapon : 20002 : Musket
+a : 40022 :  Weapon : 20002 : Stiletto
+a : 40023 :   Stone : 20003 : Variscite
+a : 40024 :   Stone : 20003 : Lapis-lazuli
+a : 40025 :  Potion : 20003 : Freezing
+a : 40026 :  Potion : 20003 : Water Resistance
+a : 40027 :    Wand : 20003 : Wand
+a : 40028 :  Weapon : 20003 : Musket
+a : 40029 :  Weapon : 20003 : Throwing Spear
+a : 40030 :   Stone : 20004 : Pyrite
+a : 40031 :  Potion : 20004 : Intellect Boost
+a : 40032 :    Wand : 20004 : Wand
+a : 40033 :    Wand : 20004 : Wand
+a : 40034 :  Weapon : 20004 : Scimitar
+a : 40035 :   Stone : 20005 : Kunzite
+a : 40036 :  Potion : 20005 : Body Resistance
+a : 40037 :  Potion : 20005 : Might Boost
+a : 40038 :    Wand : 20005 : Wand
+a : 40039 :  Weapon : 20005 : Epee
+a : 40040 :  Weapon : 20005 : Battle axe
+a : 40041 :   Stone : 20006 : Iolite
+a : 40042 :   Stone : 20006 : Obsidian
+a : 40043 :  Potion : 20006 : Haste
+a : 40044 :  Potion : 20006 : Cure Disease
+a : 40045 :    Wand : 20006 : Wand
+a : 40046 :    Wand : 20006 : Wand
+a : 40047 :  Weapon : 20006 : Zweihander
+a : 40048 :  Weapon : 20006 : Culverin
+a : 40049 :  Weapon : 20006 : Repeating crossbow
+a : 40050 :   Stone : 20007 : Aquamarine
+a : 40051 :   Stone : 20007 : Zeolite
+a : 40052 :  Potion : 20007 : Flaming
+a : 40053 :    Wand : 20007 : Wand
+a : 40054 :  Weapon : 20007 : English longbow
+a : 40055 :  Weapon : 20007 : Quarterstaff
+a : 40056 :  Weapon : 20007 : Lucerne hammer
+a : 40057 :  Weapon : 20007 : Shortsword
+a : 40058 :   Stone : 20008 : Chrysocolla
+a : 40059 :   Stone : 20008 : Jasper
+a : 40060 :  Potion : 20008 : Flaming
+a : 40061 :    Wand : 20008 : Wand
+a : 40062 :    Wand : 20008 : Wand
+a : 40063 :  Weapon : 20008 : Dagger
+a : 40064 :  Weapon : 20008 : Halberd

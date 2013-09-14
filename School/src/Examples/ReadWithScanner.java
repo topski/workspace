@@ -6,10 +6,11 @@ import java.util.Scanner;
 public class ReadWithScanner {
 
   public static void main(String... aArgs) throws FileNotFoundException {
-    ReadWithScanner parser = new ReadWithScanner("/home/jwatson/Desktop/test.txt");
+    ReadWithScanner parser = new ReadWithScanner("/home/jwatson/workspace/School/dataZ.txt");
     parser.processLineByLine();
     log("Done.");
   }
+ 
   
   /**
    Constructor.
